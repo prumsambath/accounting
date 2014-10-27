@@ -7,11 +7,11 @@ require "accounting/version"
 Gem::Specification.new do |s|
   s.name        = "accounting"
   s.version     = Accounting::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Accounting."
-  s.description = "TODO: Description of Accounting."
+  s.authors     = ["Sambath Prum"]
+  s.email       = ["psb.sambath@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "A tiny library providing simple and advanced number, money, and currency formatting"
+  s.description = "A tiny library providing simple and advanced number, money, and currency formatting"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
@@ -20,4 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.1.6"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "capybara"
+  s.add_development_dependency "factory_girl_rails"
 end
